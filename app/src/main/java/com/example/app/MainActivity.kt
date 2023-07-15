@@ -26,9 +26,6 @@ private val viewModel: AddNumberViewModel by lazy {
         numberTv=findViewById(R.id.number_textView)
         addNumberBtn=findViewById(R.id.add_number_button)
         zeronNumberBtn=findViewById(R.id.zero_button)
-
-
-
         render()
             //send
         addNumberBtn.setOnClickListener{
